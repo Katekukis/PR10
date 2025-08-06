@@ -1,0 +1,16 @@
+# Укажите владельцев всего репозитория
+* @katekukiss
+
+# Определённые директории
+/docs/  @techwriter @owner2
+/src/   @backend-devs
+/ui/    @frontend-devs
+
+# Конкретные файлы
+README.md       @maintainer
+Dockerfile      @devops
+.github/workflows/ci.yml @ci-team
+
+# Игнорировать комментарии — не ставить ревьюеров
+# пустая строка означает, что нет владельца
+/tests/
